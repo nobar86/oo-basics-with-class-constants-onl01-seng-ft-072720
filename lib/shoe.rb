@@ -12,5 +12,8 @@ BRANDS = []
     self.condition = "new"
     puts "Your shoe is as good as new!"
   end
-
+ def genre=(genre)
+    @genre = genre
+    GENRES << genre 
+  end
 end
